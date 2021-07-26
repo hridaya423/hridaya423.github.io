@@ -36,10 +36,6 @@ input {
   transition: 0.4s;
 }
 
-input:checked + .slider {
-  background-color: $toggleCheck;
-}
-
 input:focus + .slider {
   box-shadow: $toggleCheck;
 }
