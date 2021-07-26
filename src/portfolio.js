@@ -81,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "Swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
@@ -111,10 +111,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "Rust",
-      fontAwesomeClassname: "fab fa-rust"
     },
     {
       skillName: "Vue JS",
