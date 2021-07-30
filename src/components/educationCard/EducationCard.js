@@ -1,5 +1,5 @@
 import React, {createRef, useState} from "react";
-import "./components/experienceCard/ExperienceCard.scss";
+import "./EducationCard.scss";
 import ColorThief from "colorthief";
 
 export default function EducationCard({school}) {
