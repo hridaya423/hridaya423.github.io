@@ -273,6 +273,12 @@ const blogSection = {
       description:
         "Learn Earn & Fun Blog"
     },
+    {
+      url: "https://kids.learnearnfun.com",
+      title: "Learn Earn & Fun Kids",
+      description:
+        "Learn Earn & Fun Kids"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
