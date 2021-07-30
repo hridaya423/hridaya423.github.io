@@ -1,67 +1,83 @@
-import React, {createRef, useContext} from "react";
-import {Fade, Slide} from "react-reveal";
-import "./EducationCard.scss";
-import StyleContext from "../../contexts/StyleContext";
+import React, {createRef, useState} from "react";
+import "./components/experienceCard/ExperienceCard.scss";
+import ColorThief from "colorthief";
 
 export default function EducationCard({school}) {
+  const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
-  const GetDescBullets = ({descBullets}) => {
+  function getColorArrays() {
+    const colorThief = new ColorThief();
+    setColorArrays(colorThief.getColor(imgRef.current));
+  }
+
+  function rgb(values) {
+    return typeof values === "undefined"
+      ? null
+      : "rgb(" + values.join(", ") + ")";
+  }
+
+  const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
+          <p
+            key={i}
+            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+            style={{ textAlign: "center" }}
+          >
             {item}
-          </li>
+          </p>
         ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
-  return (
-    <div>
-      <Fade left duration={1000}>
-        <div className="education-card">
-          <div className="education-card-left">
-            <img
-              crossOrigin={"anonymous"}
-              ref={imgRef}
-              className="education-roundedimg"
-              src={school.logo}
-              alt={school.schoolName}
-            />
-          </div>
-          <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
-
-            <div className="education-text-details">
-              <h5
-                className={
-                  isDark
-                    ? "dark-mode education-text-subHeader"
-                    : "education-text-subHeader"
-                }
-              >
-                {school.subHeader}
-              </h5>
-              <p
-                className={`${
-                  isDark ? "dark-mode" : ""
-                } education-text-duration`}
-              >
-                {school.duration}
-              </p>
-              <p className="education-text-desc">{school.desc}</p>
-              <div className="education-text-bullets">
-                <ul>
-                  <GetDescBullets descBullets={school.descBullets} />
-                </ul>
-              </div>
-            </div>
-          </div>
+   return (
+    <div className={isDark ? "experience-card-dark" : "experience-card"}>
+      <div style={{background: rgb(colorArrays)}} className="experience-banner">
+        <div className="experience-blurred_div"></div>
+        <div className="experience-div-company">
+          <h5 className="experience-text-company">{school.schoolName}</h5>
         </div>
-      </Fade>
-      <Slide left duration={2000}>
-        <div className="education-card-border"></div>
-      </Slide>
+
+        <img
+          crossOrigin={"anonymous"}
+          ref={imgRef}
+          className="experience-roundedimg"
+          src={school.logo}
+          alt={school.schoolName}
+          onLoad={() => getColorArrays()}
+        />
+      </div>
+      <div className="experience-text-details">
+        <h5
+          className={
+            isDark
+              ? "experience-text-role dark-mode-text"
+              : "experience-text-role"
+          }
+        >
+          {school.subHeader}
+        </h5>
+        <h5
+          className={
+            isDark
+              ? "experience-text-date dark-mode-text"
+              : "experience-text-date"
+          }
+        >
+          {school.duration}
+        </h5>
+        <p
+          className={
+            isDark
+              ? "subTitle experience-text-desc dark-mode-text"
+              : "subTitle experience-text-desc"
+          }
+        >
+          {school.subHeader}
+        </p>
+        <h3 style={{ textAlign: "center" }}>Description</h3>
+          <GetDescBullets descBullets={school.descBullets} isDark={isDark} />
+      </div>
     </div>
   );
 }
