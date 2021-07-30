@@ -243,6 +243,12 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "3K YouTube Subscribers",
+      subtitle: "3K YouTube Subscribers",
+      image: "https://th.bing.com/th/id/OIP.rRY-_NyMCCvm6KCMmf_lvAHaEo?pid=ImgDet&rs=1",
+      footerLink: []
+    },
+    {
       title: "Attended SAP Young Thinkers",
       subtitle:
         "Attended SAP Young Thinkers Festival.",
