@@ -247,9 +247,8 @@ const achievementSection = {
       subtitle:
         "Attended SAP Young Thinkers Festival.",
       image: "https://th.bing.com/th/id/OIP.eiehkl1XwLv-TmUPLYFo3AHaC4?pid=ImgDet&rs=1",
-      footerLink: [];
+      footerLink: []
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
