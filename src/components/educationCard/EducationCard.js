@@ -57,7 +57,7 @@ export default function EducationCard({school}) {
               : "experience-text-role"
           }
         >
-          {school.subHeader}
+          {school.schoolName}
         </h5>
         <h5
           className={
@@ -77,7 +77,6 @@ export default function EducationCard({school}) {
         >
           {school.subHeader}
         </p>
-        <h3 style={{ textAlign: "center" }}>Description</h3>
           <GetDescBullets descBullets={school.descBullets} isDark={isDark} />
       </div>
     </div>
