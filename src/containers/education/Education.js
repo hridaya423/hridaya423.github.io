@@ -1,8 +1,7 @@
+import React, {useContext} from "react";
 import "./Education.scss";
-import "./WorkExperience.scss";
 import EducationCard from "../../components/educationCard/EducationCard";
 import {educationInfo} from "../../portfolio";
-import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Education() {
