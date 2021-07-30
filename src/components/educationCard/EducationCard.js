@@ -1,6 +1,7 @@
-import React, {createRef, useState} from "react";
+import React, {createRef, useState, useContext} from "react";
 import "./EducationCard.scss";
 import ColorThief from "colorthief";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function EducationCard({school}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -30,6 +31,7 @@ export default function EducationCard({school}) {
         ))
       : null;
   };
+  const {isDark} = useContext(StyleContext);
    return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
