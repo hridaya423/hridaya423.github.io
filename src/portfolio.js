@@ -148,6 +148,14 @@ const educationInfo = {
       duration: "May 2018 - May 2021",
       desc: "Learnt a lot!",
       descBullets: ["Learnt a lot!"]
+    },
+    {
+      schoolName: "Vydehi School Of Excellence",
+      logo: "https://th.bing.com/th/id/OIP.U2pSLkQdWVgPRob3hpqxUQAAAA?pid=ImgDet&rs=1",
+      subHeader: "Grade 2",
+      duration: "May 2017 - May 2018",
+      desc: "Learnt a lot!",
+      descBullets: ["Learnt a lot!"]
     }
   ]
 };
