@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7398f87a70c038c5cfd493a12e02bd09",
+    "revision": "daf8d1e780620cb91f835e72e4fecdea",
     "url": "/index.html"
   },
   {
-    "revision": "253c571d3c3b255de672",
+    "revision": "5750833897770c020cef",
     "url": "/static/css/3.761804ca.chunk.css"
   },
   {
-    "revision": "1827d14e4445f679bea0",
+    "revision": "ba6358efdc61f2b0c4c2",
     "url": "/static/css/4.d82bda40.chunk.css"
   },
   {
-    "revision": "b094300b3bc0ffd4dc99",
+    "revision": "d0fc23d66a508f1a9b6f",
     "url": "/static/css/main.2f88c405.chunk.css"
   },
   {
-    "revision": "1f97fa197213adfd9620",
-    "url": "/static/js/2.f81d17e6.chunk.js"
+    "revision": "d6cd98cfa46afb9995bb",
+    "url": "/static/js/2.26ce8abd.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.f81d17e6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.26ce8abd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "253c571d3c3b255de672",
-    "url": "/static/js/3.7615751e.chunk.js"
+    "revision": "5750833897770c020cef",
+    "url": "/static/js/3.7bd1f41f.chunk.js"
   },
   {
-    "revision": "1827d14e4445f679bea0",
-    "url": "/static/js/4.11a5e557.chunk.js"
+    "revision": "ba6358efdc61f2b0c4c2",
+    "url": "/static/js/4.a537e630.chunk.js"
   },
   {
-    "revision": "b094300b3bc0ffd4dc99",
-    "url": "/static/js/main.71a4169c.chunk.js"
+    "revision": "d0fc23d66a508f1a9b6f",
+    "url": "/static/js/main.cce521a2.chunk.js"
   },
   {
-    "revision": "138589fc6ac625b486ba",
-    "url": "/static/js/runtime-main.72c25520.js"
+    "revision": "097554751c92b88b6973",
+    "url": "/static/js/runtime-main.7271dd3e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/static/media/codeInLogo.47a7a717.webp"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
