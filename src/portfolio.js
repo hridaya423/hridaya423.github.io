@@ -102,7 +102,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "ion-logo-python"
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "Docker",
