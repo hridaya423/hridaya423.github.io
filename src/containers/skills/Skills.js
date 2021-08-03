@@ -45,9 +45,11 @@ export default function Skills() {
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills, i) => {
+              {skillsSection.skills.map((skill, i) => {
                 return (
-                  <p
+                  <h3>{skill.title}</h3>
+                    {skill.descBullets.map(bullets, i) => {
+                      return <p
                     key={i}
                     className={
                       isDark
@@ -55,7 +57,7 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    {skills}
+                    }}
                   </p>
                 );
               })}
