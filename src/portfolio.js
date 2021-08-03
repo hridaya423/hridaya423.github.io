@@ -455,6 +455,7 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
+  techStackData,
   educationInfo,
   techStack,
   workExperiences,
