@@ -10,6 +10,7 @@ import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
+import TechStack from "./techStack/techStackComponent"
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
@@ -49,6 +50,7 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           <StackProgress />
+          <TechStack />
           <Education />
           <WorkExperience />
           <Projects />
