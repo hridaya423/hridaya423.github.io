@@ -1,14 +1,14 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, skillsSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
   }
@@ -47,22 +47,21 @@ export default function Skills() {
             <div>
               {skillsSection.skills.map((skill, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <h3>{skill.title}</h3>
                     {skill.descBullets.map((bullet, i) => {
-                    return ( 
                       <p
-                      key={i}
-                      className={
-                        isDark
-                          ? "dark-mode subTitle skills-text"
-                          : "subTitle skills-text"
-                      }
-                    >
-                      {bullet}
-                    </p> )
-                },
-               </div>
+                        key={i}
+                        className={
+                          isDark
+                            ? "dark-mode subTitle skills-text"
+                            : "subTitle skills-text"
+                        }
+                      >
+                        {bullet}
+                      </p>;
+                    })}
+                  </div>
                 );
               })}
             </div>
