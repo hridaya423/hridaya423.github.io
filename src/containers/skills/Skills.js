@@ -50,16 +50,18 @@ export default function Skills() {
                   <div key={i}>
                     <h3>{skill.title}</h3>
                     {skill.descBullets.map((bullet, i) => {
-                      <p
-                        key={i}
-                        className={
-                          isDark
-                            ? "dark-mode subTitle skills-text"
-                            : "subTitle skills-text"
-                        }
-                      >
-                        {bullet}
-                      </p>;
+                      return (
+                        <p
+                          key={i}
+                          className={
+                            isDark
+                              ? "dark-mode subTitle skills-text"
+                              : "subTitle skills-text"
+                          }
+                        >
+                          {bullet}
+                        </p>
+                      );
                     })}
                   </div>
                 );
