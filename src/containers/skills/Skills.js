@@ -48,7 +48,9 @@ export default function Skills() {
               {skillsSection.skills.map((skill, i) => {
                 return (
                   <div key={i}>
-                    <h3>{skill.title}</h3>
+                    <div style={{ textAlign: "center" }}>
+                      <h2>{skill.title}</h2>
+                    </div>
                     {skill.descBullets.map((bullet, i) => {
                       return (
                         <p
