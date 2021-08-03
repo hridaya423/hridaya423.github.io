@@ -10,13 +10,15 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  techStackData
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
+  const viewTechStack = techStackData.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
@@ -44,14 +46,19 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewSkills && (
+            <li>
+              <a href="#tech-stack">Tech Stacks</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experience</a>
+              <a href="#experience">Work</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source Projects</a>
+              <a href="#opensource">Projects</a>
             </li>
           )}
           {viewAchievement && (
