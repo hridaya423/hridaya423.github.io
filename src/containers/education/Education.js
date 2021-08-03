@@ -9,7 +9,7 @@ export default function Education() {
     return (
       <div id="experience">
         <Fade bottom duration={1000} distance="20px">
-          <div className="experience-container" id="workExperience">
+          <div className="experience-container" id="education">
             <div>
               <h1 className="experience-heading">Education</h1>
               <div className="experience-cards-div">
