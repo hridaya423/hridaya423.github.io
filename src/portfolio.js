@@ -231,7 +231,11 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-const techStackData = [
+const techStackData = {
+  title: "Tech Stacks",
+  subtitle: "Tech Stacks that I know",
+  display: true,
+  techStacks: [
   {
     name: "MEAN Stack",
     icons: [
@@ -307,7 +311,8 @@ const techStackData = [
       }
     ]
   }
-];
+ ]
+};
 
 
 // Work experience section
