@@ -275,7 +275,7 @@ const achievementSection = {
       title: "Attended SAP Young Thinkers",
       subtitle:
         "Attended SAP Young Thinkers Festival.",
-      image: require("./assets/YLF Cert.png"),
+      image: require("./assets/images/YLF Cert.png"),
       footerLink: []
     }
   ],
