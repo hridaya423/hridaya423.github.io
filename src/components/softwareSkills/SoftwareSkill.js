@@ -15,7 +15,7 @@ export default function SoftwareSkill() {
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname} style={{ color: skills.color }}></i>
-                <h6 style={{ color: skills.color }}>{skills.skillName}</h6>
+                <b><p style={{ color: skills.color, fontSize: '15px' }}>{skills.skillName}</p></b>
               </li>
             );
           })}
