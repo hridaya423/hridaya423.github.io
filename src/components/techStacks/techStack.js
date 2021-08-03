@@ -2,7 +2,7 @@ import React from "react";
 import "./techStack.scss";
 import { techStackData } from "../../portfolio";
 
-export default function techStackCard({ cardInfo, isDark }) {
+export default function TechStackCard({ cardInfo, isDark }) {
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
