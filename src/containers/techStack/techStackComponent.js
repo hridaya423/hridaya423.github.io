@@ -40,7 +40,7 @@ export default function TechStack() {
                 <TechStackCard
                   key={i}
                   isDark={isDark}
-                  cardInfo=card
+                  cardInfo={card}
                 />
               );
             })}
