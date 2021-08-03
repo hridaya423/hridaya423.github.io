@@ -47,18 +47,22 @@ export default function Skills() {
             <div>
               {skillsSection.skills.map((skill, i) => {
                 return (
-                  <h3>{skill.title}</h3>
-                    {skill.descBullets.map(bullets, i) => {
-                      return <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    }}
-                  </p>
+                  <div>
+                    <h3>{skill.title}</h3>
+                    {skill.descBullets.map((bullet, i) => {
+                    return ( 
+                      <p
+                      key={i}
+                      className={
+                        isDark
+                          ? "dark-mode subTitle skills-text"
+                          : "subTitle skills-text"
+                      }
+                    >
+                      {bullet}
+                    </p> )
+                }
+               </div>
                 );
               })}
             </div>
