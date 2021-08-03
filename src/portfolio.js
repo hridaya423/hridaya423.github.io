@@ -92,11 +92,11 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react",
       color: "#61DBFB"
     },
-    {
-      skillName: "Node JS",
-      fontAwesomeClassname: "fab fa-node",
-      color: "#68A063"
-    },
+      {
+        skillName: "Node JS",
+        fontAwesomeClassname: "fab fa-node",
+        color: "#68A063"
+      },
     {
       skillName: "Swift",
       fontAwesomeClassname: "fab fa-swift",
@@ -151,6 +151,11 @@ const skillsSection = {
       skillName: "Passport JS",
       fontAwesomeClassname: "fas fa-passport",
       color: ""
+    },
+    {
+        skillName: "Express JS",
+        fontAwesomeClassname: "fas fa-train",
+        color: ""
     },
     {
       skillName: "Android",
@@ -225,6 +230,85 @@ const techStack = {
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
+
+const techStackData = [
+  {
+    name: "MEAN Stack",
+    icons: [
+      {
+        skillNname: "MongoDB",
+        fontAwesomeClassname: "fab fa-envira",
+        color: "#3FA037",
+      },
+      {
+        skillName: "Express JS",
+        fontAwesomeClassname: "fas fa-train",
+        color: "",
+      },
+      {
+        skillName: "Angular JS",
+        fontAwesomeClassname: "fab fa-angular",
+        color: "#B52E31",
+      },
+      {
+        skillName: "Node JS",
+        fontAwesomeClassname: "fab fa-node",
+        color: "#68A063",
+      }
+    ]
+  },
+  {
+    name: "MERN Stack",
+    icons: [
+      {
+        skillNname: "MongoDB",
+        fontAwesomeClassname: "fab fa-envira",
+        color: "#3FA037",
+      },
+      {
+        skillName: "Express JS",
+        fontAwesomeClassname: "fas fa-train",
+        color: "",
+      },
+      {
+        skillName: "React JS",
+        fontAwesomeClassname: "fab fa-react",
+        color: "#61DBFB",
+      },
+      {
+        skillName: "Node JS",
+        fontAwesomeClassname: "fab fa-node",
+        color: "#68A063",
+      }
+    ]
+  },
+  {
+    name: "MEVN Stack",
+    icons: [
+      {
+        skillNname: "MongoDB",
+        fontAwesomeClassname: "fab fa-envira",
+        color: "#3FA037",
+      },
+      {
+        skillName: "Express JS",
+        fontAwesomeClassname: "fas fa-train",
+        color: "",
+      },
+      {
+        skillName: "Vue JS",
+        fontAwesomeClassname: "fab fa-vuejs",
+        color: "#41B883"
+      },
+      {
+        skillName: "Node JS",
+        fontAwesomeClassname: "fab fa-node",
+        color: "#68A063",
+      }
+    ]
+  }
+];
+
 
 // Work experience section
 
