@@ -61,7 +61,7 @@ export default function Skills() {
                     >
                       {bullet}
                     </p> )
-                }
+                },
                </div>
                 );
               })}
