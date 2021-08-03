@@ -29,7 +29,7 @@ export default function TechStackCard({ cardInfo, isDark }) {
                         className={icon.fontAwesomeClassname}
                         style={{ color: icon.color }}
                       ></i>
-                      <p>{icon.skillName}</p>
+                      <b><p style={{ fontSize: "15px", color: icon.color }}>{icon.skillName}</p></b>
                     </li>
                   );
                 })}
