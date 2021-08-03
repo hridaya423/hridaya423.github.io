@@ -240,7 +240,7 @@ const techStackData = {
     name: "MEAN Stack",
     icons: [
       {
-        skillNname: "MongoDB",
+        skillName: "MongoDB",
         fontAwesomeClassname: "fab fa-envira",
         color: "#3FA037",
       },
@@ -265,7 +265,7 @@ const techStackData = {
     name: "MERN Stack",
     icons: [
       {
-        skillNname: "MongoDB",
+        skillName: "MongoDB",
         fontAwesomeClassname: "fab fa-envira",
         color: "#3FA037",
       },
@@ -290,7 +290,7 @@ const techStackData = {
     name: "MEVN Stack",
     icons: [
       {
-        skillNname: "MongoDB",
+        skillName: "MongoDB",
         fontAwesomeClassname: "fab fa-envira",
         color: "#3FA037",
       },
