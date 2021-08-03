@@ -95,17 +95,17 @@ const skillsSection = {
     {
       skillName: "Node JS",
       fontAwesomeClassname: "fab fa-node",
-      color: "#61DBFB"
+      color: "#68A063"
     },
     {
       skillName: "Swift",
       fontAwesomeClassname: "fab fa-swift",
-      color: "##F46C31"
+      color: "#F46C31"
     },
     {
       skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm",
-      color: "#61DBFB"
+      color: "#68A063"
     },
     {
       skillName: "SQL",
@@ -125,7 +125,7 @@ const skillsSection = {
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
-      color: "#FFA611"
+      color: "#306998"
     },
     {
       skillName: "Docker",
