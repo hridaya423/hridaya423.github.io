@@ -47,6 +47,7 @@ const skillsSection = {
       descBullets: [emoji("⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"),
                     emoji("⚡ Experience of working with Computer Vision and NLP projects"),
                     emoji("⚡ Complex quantitative modelling for dynamic forecasting and time series analysis")]
+      
     },
     { title: "Full Stack Development",
       descBullets: [emoji("⚡ Building resposive website front end using React-Redux"),
@@ -131,6 +132,21 @@ const skillsSection = {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker",
       color: "#0db7ed"
+    },
+    {
+      skillName: "Tensorflow",
+      fontAwesomeClassname: "fab fa-tensorflow",
+      color: "#EC8C24"
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fab fa-pytorch",
+      color: "#EC4C2C"
+    },
+    {
+      skillName: "Keras",
+      fontAwesomeClassname: "fab fa-keras",
+      color: "#D40404"
     },
     {
       skillName: "Java",
