@@ -43,23 +43,27 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    "Data Science & AI",
-    emoji("⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"),
-    emoji("⚡ Experience of working with Computer Vision and NLP projects"),
-    emoji("⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"),
-    "Full Stack Development",
-    emoji("⚡ Building resposive website front end using React-Redux"),
-    emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin"),
-    emoji("⚡ Creating application backend in Node, Express & Flask"),
-    "Cloud Infra-Architecture",
-    emoji("⚡ Experience working on multiple cloud platforms"),
-    emoji("⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"),
-    emoji("⚡ Deploying deep learning models on cloud to use on mobile devices"),
-    emoji("⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"),
-    "UI/UX Design",
-    emoji("⚡ Designing highly attractive user interface for mobile and web applications"),
-    emoji("⚡ Customizing logo designs and building logos from scratch"),
-    emoji("⚡ Creating the flow of application functionalities to optimize user experience")
+    { title: "Data Science & AI",
+      descBullets: [emoji("⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"),
+                    emoji("⚡ Experience of working with Computer Vision and NLP projects"),
+                    emoji("⚡ Complex quantitative modelling for dynamic forecasting and time series analysis")]
+    },
+    { title: "Full Stack Development",
+      descBullets: [emoji("⚡ Building resposive website front end using React-Redux"),
+                    emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin"),
+                    emoji("⚡ Creating application backend in Node, Express & Flask")]
+    },
+    { title: "Cloud Infra-Architecture",
+     descBullets: [emoji("⚡ Experience working on multiple cloud platforms"),
+                   emoji("⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"),
+                   emoji("⚡ Deploying deep learning models on cloud to use on mobile devices"),
+                   emoji("⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS")]
+    },
+    { title: "UI/UX Design",
+      descBullets: [emoji("⚡ Designing highly attractive user interface for mobile and web applications"),
+                    emoji("⚡ Customizing logo designs and building logos from scratch"),
+                    emoji("⚡ Creating the flow of application functionalities to optimize user experience")]
+    }
   ],
 
   softwareSkills: [
