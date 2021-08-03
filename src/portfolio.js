@@ -43,18 +43,24 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    "Data Science & AI"
-    emoji(
-      "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"
-    ),
+    "Data Science & AI",
+    emoji("⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"),
     emoji("⚡ Experience of working with Computer Vision and NLP projects"),
-    emoji(
-      "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
-    )
+    emoji("⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"),
+    "Full Stack Development",
+    emoji("⚡ Building resposive website front end using React-Redux"),
+    emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin"),
+    emoji("⚡ Creating application backend in Node, Express & Flask"),
+    "Cloud Infra-Architecture",
+    emoji("⚡ Experience working on multiple cloud platforms"),
+    emoji("⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"),
+    emoji("⚡ Deploying deep learning models on cloud to use on mobile devices"),
+    emoji("⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"),
+    "UI/UX Design",
+    emoji("⚡ Designing highly attractive user interface for mobile and web applications"),
+    emoji("⚡ Customizing logo designs and building logos from scratch"),
+    emoji("⚡ Creating the flow of application functionalities to optimize user experience")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -132,6 +138,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Yarn",
+      fontAwesomeClassname: "fab fa-yarn"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-envira"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
     }
   ],
   display: true // Set false to hide this section, defaults to true
