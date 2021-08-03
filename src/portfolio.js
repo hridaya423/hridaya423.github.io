@@ -69,95 +69,113 @@ const skillsSection = {
   softwareSkills: [
     {
       skillName: "HTML 5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
+      color: "#F06529"
     },
     {
       skillName: "CSS 3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt", 
+      color: "#3C99DC"
     },
     {
       skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
+      color: "#CD6799"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
+      color: "#FDC72E"
     },
     {
       skillName: "React JS",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
+      color: "#61DBFB"
     },
     {
       skillName: "Node JS",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
+      color: "#61DBFB"
     },
     {
       skillName: "Swift",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fab fa-swift",
+      color: "##F46C31"
     },
     {
       skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
+      color: "#61DBFB"
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
+      color: ""
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-aws",
+      color: "#FF9900"
     },
     {
       skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-fire",
+      color: "#FFA611"
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python",
+      color: "#FFA611"
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-docker",
+      color: ""
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fab fa-java",
+      color: "#5382a1"
     },
     {
       skillName: "Vue JS",
-      fontAwesomeClassname: "fab fa-vuejs"
+      fontAwesomeClassname: "fab fa-vuejs",
+      color: "#41B883"
     },
     {
       skillName: "Angular JS",
-      fontAwesomeClassname: "fab fa-angular"
+      fontAwesomeClassname: "fab fa-angular",
+      color: "#B52E31"
     },
     {
       skillName: "Passport JS",
-      fontAwesomeClassname: "fas fa-passport"
+      fontAwesomeClassname: "fas fa-passport",
+      color: ""
     },
     {
       skillName: "Android",
-      fontAwesomeClassname: "fab fa-android"
+      fontAwesomeClassname: "fab fa-android",
+      color: "#32DE84"
     },
     {
       skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
+      fontAwesomeClassname: "fab fa-bootstrap",
+      color: "#602C50"
     },
     {
       skillName: "Yarn",
-      fontAwesomeClassname: "fab fa-yarn"
+      fontAwesomeClassname: "fab fa-yarn",
+      color: ""
     },
     {
       skillName: "MongoDB",
-      fontAwesomeClassname: "fab fa-envira"
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-envira",
+      color: "#3FA037"
     },
     {
       skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma"
+      fontAwesomeClassname: "fab fa-figma",
+      color: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
