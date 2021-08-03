@@ -275,7 +275,7 @@ const achievementSection = {
       title: "Attended SAP Young Thinkers",
       subtitle:
         "Attended SAP Young Thinkers Festival.",
-      image: "https://th.bing.com/th/id/OIP.eiehkl1XwLv-TmUPLYFo3AHaC4?pid=ImgDet&rs=1",
+      image: require("../assets/YLF Cert.png"),
       footerLink: []
     }
   ],
