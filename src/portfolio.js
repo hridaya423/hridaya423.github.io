@@ -110,7 +110,7 @@ const skillsSection = {
     {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database",
-      color: ""
+      color: "#00008b"
     },
     {
       skillName: "AWS",
@@ -130,7 +130,7 @@ const skillsSection = {
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker",
-      color: ""
+      color: "#0db7ed"
     },
     {
       skillName: "Java",
@@ -165,7 +165,7 @@ const skillsSection = {
     {
       skillName: "Yarn",
       fontAwesomeClassname: "fab fa-yarn",
-      color: ""
+      color: "#348CBB"
     },
     {
       skillName: "MongoDB",
@@ -175,7 +175,7 @@ const skillsSection = {
     {
       skillName: "Figma",
       fontAwesomeClassname: "fab fa-figma",
-      color: ""
+      color: "#F86040"
     }
   ],
   display: true // Set false to hide this section, defaults to true
