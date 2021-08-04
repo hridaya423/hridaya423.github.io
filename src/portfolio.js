@@ -64,73 +64,72 @@ const skillsSection = {
   softwareSkills: [
     {
       skillName: "HTML 5",
-      fontAwesomeClassname: "fab fa-html5",
+      img: "https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png",
       color: "#F06529"
     },
     {
       skillName: "CSS 3",
-      fontAwesomeClassname: "fab fa-css3-alt", 
+      img: "https://clipground.com/images/css-3-logo-clipart.jpg  ", 
       color: "#3C99DC"
     },
     {
       skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass",
+      img: "http://vanseodesign.com/blog/wp-content/uploads/2015/09/sass-logo-2.png",
       color: "#CD6799"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js",
+      img: "http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s1600/js.jpg",
       color: "#FDC72E"
     },
     {
       skillName: "React JS",
-      fontAwesomeClassname: "fab fa-react",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
       color: "#61DBFB"
     },
       {
         skillName: "Node JS",
-        fontAwesomeClassname: "fab fa-node",
+        img: "https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png",
         color: "#68A063"
       },
     {
       skillName: "Swift",
-      fontAwesomeClassname: "fab fa-swift",
+      img: "https://www.wamatechnology.com/wp-content/uploads/2019/07/1138px-Swift_logo.svg_.png",
       color: "#F46C31"
     },
     {
       skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm",
+      img: "https://www.logolynx.com/images/logolynx/7f/7fb976a537620fed310872d533cd161c.png",
       color: "#68A063"
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database",
+      img: "https://th.bing.com/th/id/OIP.E6i6aq5yJucBSl3QlkIMIAHaHa?pid=ImgDet&rs=1",
       color: "#00008b"
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws",
+      img: "http://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS.png",
       color: "#FF9900"
     },
     {
       skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire",
+      img: "http://pluspng.com/img-png/firebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png",
       color: "#FFA611"
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
+      img: "https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png",
       color: "#306998"
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker",
+      img: "http://logos-download.com/wp-content/uploads/2016/09/Docker_logo.png",
       color: "#0db7ed"
     },
     {
       skillName: "Tensorflow",
-      fontAwesomeClassname: "",
-      image: "https://miro.medium.com/max/4000/0*4Z6mwORGhtSAgeQ2.png",
+      img: "https://miro.medium.com/max/4000/0*4Z6mwORGhtSAgeQ2.png",
       color: "#EC8C24"
     },
     {
@@ -141,58 +140,57 @@ const skillsSection = {
     },
     {
       skillName: "Keras",
-      fontAwesomeClassname: "",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png",
       color: "#D40404"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java",
+      img: "http://logos-download.com/wp-content/uploads/2016/10/Java_logo.png",
       color: "#5382a1"
     },
     {
       skillName: "Vue JS",
-      fontAwesomeClassname: "fab fa-vuejs",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
       color: "#41B883"
     },
     {
       skillName: "Angular JS",
-      fontAwesomeClassname: "fab fa-angular",
+      img: "https://img2.freepng.es/20180701/rht/kisspng-angularjs-logo-javascript-security-token-5b38e22b8a3f38.7851363415304545715663.jpg",
       color: "#B52E31"
     },
     {
       skillName: "Passport JS",
-      fontAwesomeClassname: "fas fa-passport",
+      img: "https://miro.medium.com/max/400/1*YI1tt4kGzvea-v4dAhZ90w.png",
       color: ""
     },
     {
         skillName: "Express JS",
-        fontAwesomeClassname: "fas fa-train",
+        img: "https://buttercms.com/static/images/tech_banners/ExpressJS.8587dd0647ca.png",
         color: ""
     },
     {
       skillName: "Android",
-      fontAwesomeClassname: "fab fa-android",
+      img: "https://1000logos.net/wp-content/uploads/2016/10/Android-Logo.png",
       color: "#32DE84"
     },
     {
       skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap",
+      img: "https://sdtimes.com/wp-content/uploads/2018/01/bootstrap-stack.png",
       color: "#602C50"
     },
     {
       skillName: "Yarn",
-      fontAwesomeClassname: "fab fa-yarn",
+      img: "https://heroku-blog-files.s3.amazonaws.com/posts/1488416188-yarn-logo.png",
       color: "#348CBB"
     },
     {
       skillName: "MongoDB",
-      fontAwesomeClassname: "fab fa-envira",
+      img: "https://clipartart.com/images/mongodb-logo-clipart-6.jpg",
       color: "#3FA037"
     },
     {
       skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png",
       color: "#F86040"
     }
   ],
