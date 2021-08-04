@@ -135,17 +135,17 @@ const skillsSection = {
     },
     {
       skillName: "Tensorflow",
-      fontAwesomeClassname: "fab fa-tensorflow",
+      fontAwesomeClassname: "fas fa-exclamation-triangle",
       color: "#EC8C24"
     },
     {
       skillName: "PyTorch",
-      fontAwesomeClassname: "fab fa-pytorch",
+      fontAwesomeClassname: "fas fa-exclamation-triangle",
       color: "#EC4C2C"
     },
     {
       skillName: "Keras",
-      fontAwesomeClassname: "fab fa-keras",
+      fontAwesomeClassname: "fas fa-exclamation-triangle",
       color: "#D40404"
     },
     {
