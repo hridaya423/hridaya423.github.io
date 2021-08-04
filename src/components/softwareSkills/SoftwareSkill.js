@@ -1,6 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
+import getDetails from "./helperFunctions";
 
 export default function SoftwareSkill() {
   return (
@@ -14,7 +15,7 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                  {skills.skillName === "Tensorflow" || skills.skillName === "Keras" || skills.skillName === "PyTorch" ? <img src={skills.image} alt={skills.skillName}></img> : <i className={skills.fontAwesomeClassname} style={{ color: skills.color }}></i>}
+                <getDetails skill={skills} name={skills.skillName}/>
                 <b><p style={{ color: skills.color, fontSize: '15px' }}>{skills.skillName}</p></b>
               </li>
             );
