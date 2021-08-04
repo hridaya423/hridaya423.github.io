@@ -1,9 +1,3 @@
-// * Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
-// Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
 
 const illustration = {
@@ -135,17 +129,20 @@ const skillsSection = {
     },
     {
       skillName: "Tensorflow",
-      fontAwesomeClassname: "fas fa-exclamation-triangle",
+      fontAwesomeClassname: "",
+      image: "https://miro.medium.com/max/4000/0*4Z6mwORGhtSAgeQ2.png",
       color: "#EC8C24"
     },
     {
       skillName: "PyTorch",
-      fontAwesomeClassname: "fas fa-exclamation-triangle",
+      fontAwesomeClassname: "",
+      image: "https://shiftlab.github.io/pytorch/assets/images/pytorch-logo.png",
       color: "#EC4C2C"
     },
     {
       skillName: "Keras",
-      fontAwesomeClassname: "fas fa-exclamation-triangle",
+      fontAwesomeClassname: "",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png",
       color: "#D40404"
     },
     {
