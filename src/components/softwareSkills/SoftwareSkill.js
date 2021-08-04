@@ -1,7 +1,6 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
-import getDetails from "./helperFunctions";
 
 export default function SoftwareSkill() {
   return (
