@@ -134,8 +134,7 @@ const skillsSection = {
     },
     {
       skillName: "PyTorch",
-      fontAwesomeClassname: "",
-      image: "https://shiftlab.github.io/pytorch/assets/images/pytorch-logo.png",
+      img: "https://shiftlab.github.io/pytorch/assets/images/pytorch-logo.png",
       color: "#EC4C2C"
     },
     {
