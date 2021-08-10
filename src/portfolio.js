@@ -109,7 +109,7 @@ const skillsSection = {
     },
     {
       skillName: "AWS",
-      img: "http://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS.png",
+      img: "https://images.idgesg.net/images/article/2018/11/aws_logo-100781597-large.jpg",
       color: "#FF9900"
     },
     {
@@ -179,7 +179,7 @@ const skillsSection = {
     },
     {
       skillName: "Yarn",
-      img: "https://heroku-blog-files.s3.amazonaws.com/posts/1488416188-yarn-logo.png",
+      img: "https://seeklogo.com/images/Y/yarn-logo-F5E7A65FA2-seeklogo.com.png",
       color: "#348CBB"
     },
     {
@@ -191,6 +191,31 @@ const skillsSection = {
       skillName: "Figma",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png",
       color: "#F86040"
+    },
+    {
+      skillName: "Gatsby",
+      img: "https://seeklogo.com/images/G/gatsby-logo-1A245AD37F-seeklogo.com.png",
+      color: "#744c9c"
+    },
+    {
+      skillName: "Azure",
+      img: "https://swimburger.net/media/0zcpmk1b/azure.jpg",
+      color: "#0962b0"
+    },
+    {
+      skillName: "GCP",
+      img: "http://www.gcppodcast.com/images/logo_large.png",
+      color: "#ec4c24"
+    },
+    {
+      skillName: "Flutter",
+      img: "https://yt3.ggpht.com/a/AGF-l7-pLWHhqjLR5ZVoKzV9_eU6IjYrDyhvSLRjsw=s900-mo-c-c0xffffffff-rj-k-no",
+      color: "#5dc9f9"
+    },
+    {
+      skillName: "Kubernetes",
+      img: "http://www.thagomizer.com/img/kubernetes-logo.png",
+      color: "#346ce4"
     }
   ],
   display: true // Set false to hide this section, defaults to true
