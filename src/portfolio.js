@@ -6,9 +6,9 @@ const illustration = {
 
 const greeting = {
   username: "Hridaya Agrawal",
-  title: "Hi all, I'm Hridaya",
+  title: "Hey, I'm Hridaya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / React JS / Node JS / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀."
   ),
   resumeLink:
     "",
