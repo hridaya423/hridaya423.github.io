@@ -8,7 +8,7 @@ const greeting = {
   username: "Hridaya Agrawal",
   title: "Hey, I'm Hridaya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀."
+    "A passionate Full Stack Software Developer 🚀. With Knowledge of many cool frameworks & languages"
   ),
   resumeLink:
     "",
