@@ -9,13 +9,13 @@ const renderLoader = () => <Loading />;
 const cantDisplayError =
   "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
-function timeOut() {
-  setTimeout(function () {
-    if (!document.getElementById("twitter").innerHTML.includes("iframe")) {
-      document.getElementById("twitter").innerHTML = cantDisplayError;
-    }
-  }, 10000);
-}
+// function timeOut() {
+//   setTimeout(function () {
+//     if (!document.getElementById("twitter").innerHTML.includes("iframe")) {
+//       document.getElementById("twitter").innerHTML = cantDisplayError;
+//     }
+//   }, 10000);
+// }
 var widthScreen = window.screen.width;
 
 export default function Twitter() {
@@ -39,7 +39,7 @@ export default function Twitter() {
               key={isDark ? "1" : "2"}
               theme={isDark ? "dark" : "light"}
               noFooter={true}
-              onload={timeOut()}
+//               onload={timeOut()}
             />
           </div>
         </div>
