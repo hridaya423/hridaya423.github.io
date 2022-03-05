@@ -63,6 +63,51 @@ const skillsSection = {
 
   softwareSkills: [
     {
+      skillName: "Solidity",
+      img: "https://www.blockchainacademy.asia/wp-content/uploads/2019/04/solidity-188x300.png",
+      color: "#346ce4"
+    },
+     {
+      skillName: "Chainlink",
+      img: "https://cryptologos.cc/logos/chainlink-link-logo.png",
+      color: "#346ce4"
+    },
+    {
+      skillName: "Biconomy",
+      img: "https://cwstatic.nyc3.digitaloceanspaces.com/4569/Biconomy-Logo.jpg",
+      color: "#346ce4"
+    },
+    {
+      skillName: "Superfluid",
+      img: "https://th.bing.com/th/id/OIP.b1OlvyqDL56kHWPNpGIQUgGQBg?pid=ImgDet&rs=1",
+      color: "#346ce4"
+    },
+    {
+      skillName: "Livepeer",
+      img: "https://logowik.com/content/uploads/images/t_livepeer-lpt-coin7356.jpg",
+      color: "#346ce4"
+    },
+    {
+      skillName: "IPFS",
+      img: "https://definicionesde.org/wp-content/uploads/2020/07/Ipfs-logo-1024-ice-text.png",
+      color: "#346ce4"
+    },
+    {
+      skillName: "Arcana",
+      img: "https://www.blockchainacademy.asia/wp-content/uploads/2019/04/solidity-188x300.png",
+      color: "#346ce4"
+    },
+    {
+      skillName: "FileCoin",
+      img: "https://cryptologos.cc/logos/filecoin-fil-logo.png",
+      color: "#346ce4"
+    },
+    {
+      skillName: "Alchemy",
+      img: "https://res.cloudinary.com/cryptojobslist/image/fetch/w_300,h_300,c_pad,b_white,q_auto,fl_lossy,f_auto/dpr_2.0/https://storage.googleapis.com/job-listing-logos/c6f317ee-eeac-4392-bbbf-a86b1322313d.png",
+      color: "#346ce4"
+    },
+    {
       skillName: "HTML 5",
       img: "https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png",
       color: "#F06529"
