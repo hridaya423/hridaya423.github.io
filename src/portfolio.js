@@ -27,6 +27,8 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/15129164/hridaya-agrawal",
   twitter: "https://twitter.com/AgrawalHridaya",
   instagram: "https://www.instagram.com/hridayaagrawal2/",
+  fiverr: "https://www.fiverr.com/hridyaagrawal",
+  upwork: "https://www.upwork.com/freelancers/~01b556a47770df08a5",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -79,7 +81,7 @@ const skillsSection = {
     },
     {
       skillName: "Superfluid",
-      img: "https://th.bing.com/th/id/OIP.b1OlvyqDL56kHWPNpGIQUgGQBg?pid=ImgDet&rs=1",
+      img: "https://media-exp1.licdn.com/dms/image/C4D0BAQHwwz5cJJsdew/company-logo_200_200/0/1595701202437?e=1654732800&v=beta&t=eENH6UOUetnDV1R3BkJyN04sYz45CPrqbjDSkUxukhY",
       color: "#346ce4"
     },
     {
@@ -94,7 +96,7 @@ const skillsSection = {
     },
     {
       skillName: "Arcana",
-      img: "https://www.blockchainacademy.asia/wp-content/uploads/2019/04/solidity-188x300.png",
+      img: "https://media-exp1.licdn.com/dms/image/C4E0BAQGexYINdJal4Q/company-logo_200_200/0/1622567556893?e=1654732800&v=beta&t=580t6BjFtHhNm9eo8JAqw2NzaS_tzJum7jsMYcwWDTs",
       color: "#346ce4"
     },
     {
