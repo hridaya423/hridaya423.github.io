@@ -460,9 +460,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "3K YouTube Subscribers",
-      subtitle: "3K YouTube Subscribers",
-      image: "https://th.bing.com/th/id/OIP.rRY-_NyMCCvm6KCMmf_lvAHaEo?pid=ImgDet&rs=1",
+      title: "AZ-900 Certification",
+      subtitle: "Certified AZ-900 Certification",
+      image: "blob:https://mcptnc.microsoft.com/508b4865-25ce-4641-bd22-b7f21568a5a9",
       footerLink: []
     },
     {
