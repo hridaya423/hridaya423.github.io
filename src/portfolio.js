@@ -463,25 +463,31 @@ const achievementSection = {
       title: "AZ-900 Certification",
       subtitle: "Certified AZ-900 Certification",
       image: "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
-      footerLink: ["https://www.credly.com/badges/c2d19134-47d4-4ded-a7cf-12e6455c29ff/public_url"]
+      footerLink: []
     },
     {
       title: "DP-900 Certification",
       subtitle: "Certified DP-900 Certification",
       image: "https://images.credly.com/size/340x340/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png",
-      footerLink: ["https://www.credly.com/badges/512c8f33-bace-4676-af29-2e7c0a027911/public_url"]
+      footerLink: []
     },
     {
       title: "AI-900 Certification",
       subtitle: "Certified AI-900 Certification",
       image: "https://images.credly.com/size/340x340/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png",
-      footerLink: ["https://www.credly.com/badges/008c2b1f-53e5-4548-9ceb-b1e7aac41d81/public_url"]
+      footerLink: []
     },
     {
       title: "PL-900 Certification",
       subtitle: "Certified AZ-900 Certification",
       image: "https://images.credly.com/size/340x340/images/2a6251f2-737b-4bf6-9190-d77570cc76fc/CERT-Fundamentals-Power-Platform.png",
-      footerLink: ["https://www.credly.com/badges/c1b54442-8027-4bf2-97d5-38b793281b9e/public_url"]
+      footerLink: []
+    },
+    {
+      title: "The Complete 2022 Web Development Bootcamp",
+      subtitle: "Udemy Course by Dr. Angela Yu",
+      image: "https://udemy-certificate.s3.amazonaws.com/image/UC-7840f96a-9638-492c-a2bf-214eaafd94b0.jpg?v=1653489931000",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
