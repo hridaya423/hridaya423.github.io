@@ -21,7 +21,6 @@ const socialMediaLinks = {
   github: "https://github.com/hridaya423",
   gmail: "hridayahoney@gmail.com",
   gitlab: "https://gitlab.com/hridaya423",
-  facebook: "https://www.facebook.com/LearnEarn4Fun",
   medium: "https://medium.com/@hridayahoney",
   stackoverflow: "https://stackoverflow.com/users/15129164/hridaya-agrawal",
   twitter: "https://twitter.com/AgrawalHridaya",
@@ -482,7 +481,7 @@ const achievementSection = {
     },
     {
       title: "PL-900 Certification",
-      subtitle: "Certified AZ-900 Certification",
+      subtitle: "Certified PL-900 Certification",
       image: "https://images.credly.com/size/340x340/images/2a6251f2-737b-4bf6-9190-d77570cc76fc/CERT-Fundamentals-Power-Platform.png",
       footerLink: []
     },
