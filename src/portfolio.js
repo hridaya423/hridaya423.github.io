@@ -49,6 +49,9 @@ const skillsSection = {
                     emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Android"),
                     emoji("⚡ Creating application backend in Node, Express.")]
     },
+    { title: "Game Development",
+      descBullets: [emoji("⚡ Building great 2D & 3D Games")]
+    },
     { title: "Cloud Infra-Architecture",
      descBullets: [emoji("⚡ Experience working on multiple cloud platforms"),
                    emoji("⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"),
