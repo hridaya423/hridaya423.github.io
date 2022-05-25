@@ -19,7 +19,6 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hridaya423",
-  linkedin: "https://www.linkedin.com/in/learnearnfun/",
   gmail: "hridayahoney@gmail.com",
   gitlab: "https://gitlab.com/hridaya423",
   facebook: "https://www.facebook.com/LearnEarn4Fun",
@@ -47,14 +46,13 @@ const skillsSection = {
     },
     { title: "Full Stack Development",
       descBullets: [emoji("⚡ Building resposive website front end using React-Redux"),
-                    emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin"),
-                    emoji("⚡ Creating application backend in Node, Express & Flask")]
+                    emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Android"),
+                    emoji("⚡ Creating application backend in Node, Express.")]
     },
     { title: "Cloud Infra-Architecture",
      descBullets: [emoji("⚡ Experience working on multiple cloud platforms"),
                    emoji("⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"),
-                   emoji("⚡ Deploying deep learning models on cloud to use on mobile devices"),
-                   emoji("⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS")]
+                   emoji("⚡ Setting up streaming jobs from DB to Server or vice-versa on AWS")]
     },
     { title: "UI/UX Design",
       descBullets: [emoji("⚡ Designing highly attractive user interface for mobile and web applications"),
@@ -139,11 +137,6 @@ const skillsSection = {
         img: "https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png",
         color: "#68A063"
       },
-    {
-      skillName: "Swift",
-      img: "https://www.wamatechnology.com/wp-content/uploads/2019/07/1138px-Swift_logo.svg_.png",
-      color: "#F46C31"
-    },
     {
       skillName: "NPM",
       img: "https://www.logolynx.com/images/logolynx/7f/7fb976a537620fed310872d533cd161c.png",
@@ -250,11 +243,6 @@ const skillsSection = {
       color: "#0962b0"
     },
     {
-      skillName: "GCP",
-      img: "http://www.gcppodcast.com/images/logo_large.png",
-      color: "#ec4c24"
-    },
-    {
       skillName: "Flutter",
       img: "https://yt3.ggpht.com/a/AGF-l7-pLWHhqjLR5ZVoKzV9_eU6IjYrDyhvSLRjsw=s900-mo-c-c0xffffffff-rj-k-no",
       color: "#5dc9f9"
@@ -263,6 +251,16 @@ const skillsSection = {
       skillName: "Kubernetes",
       img: "http://www.thagomizer.com/img/kubernetes-logo.png",
       color: "#346ce4"
+    },
+    {
+      skillName: "Unity",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbrandslogos.com%2Fwp-content%2Fuploads%2Fimages%2Flarge%2Funity-logo.png&f=1&nofb=1",
+      color: "#000"
+    },
+    {
+      skillName: "Unreal Engine",
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2018%2F09%2FUnreal_Tournament_Logo_round_1.png&f=1&nofb=1",
+      color: "#000"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -277,7 +275,7 @@ const educationInfo = {
       schoolName: "Orchids the International School Vivekananda",
       logo: "https://1.bp.blogspot.com/-NbmbXp7B1mM/Vr8wt3Ev3BI/AAAAAAAAE8k/fZVoTCGQpXg/s1600/ccccc.jpg",
       subHeader: "Grade 3, 4, 5",
-      duration: "May 2018 - May 2021",
+      duration: "May 2018 - Apr 2022",
       desc: "Learnt a lot!",
       descBullets: ["Learnt a lot!"]
     },
@@ -285,7 +283,15 @@ const educationInfo = {
       schoolName: "Vydehi School Of Excellence",
       logo: "https://th.bing.com/th/id/OIP.U2pSLkQdWVgPRob3hpqxUQAAAA?pid=ImgDet&rs=1",
       subHeader: "Grade 2",
-      duration: "May 2017 - May 2018",
+      duration: "May 2017 - Apr 2018",
+      desc: "Learnt a lot!",
+      descBullets: ["Learnt a lot!"]
+    },
+    {
+      schoolName: "Orchids the International School Vivekananda",
+      logo: "https://1.bp.blogspot.com/-NbmbXp7B1mM/Vr8wt3Ev3BI/AAAAAAAAE8k/fZVoTCGQpXg/s1600/ccccc.jpg",
+      subHeader: "Grade 1",
+      duration: "May 2016 - Apr 2017",
       desc: "Learnt a lot!",
       descBullets: ["Learnt a lot!"]
     }
@@ -316,7 +322,7 @@ const techStack = {
 const techStackData = {
   title: "Tech Stacks",
   subtitle: "Tech Stacks that I know",
-  display: true,
+  display: false,
   techStacks: [
   {
     name: "MEAN Stack",
@@ -400,7 +406,7 @@ const techStackData = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Founder, CEO",
@@ -491,7 +497,7 @@ const blogSection = {
         "Learn Earn & Fun Kids"
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -529,7 +535,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "AgrawalHridaya", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
