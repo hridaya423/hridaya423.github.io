@@ -8,7 +8,7 @@ const greeting = {
   username: "Hridya Agrawal",
   title: "Hey, I'm Hridya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀. With Knowledge of many cool frameworks & languages"
+    "A passionate Full Stack Software Developer 🚀."
   ),
   resumeLink:
     "",
@@ -26,7 +26,6 @@ const socialMediaLinks = {
   twitter: "https://twitter.com/AgrawalHridaya",
   instagram: "https://www.instagram.com/hridayaagrawal2/",
   fiverr: "https://www.fiverr.com/hridyaagrawal",
-  upwork: "https://www.upwork.com/freelancers/~01b556a47770df08a5",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
