@@ -5,8 +5,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Hriday Agrawal",
-  title: "Hey, I'm Hriday",
+  username: "Hridya Agrawal",
+  title: "Hey, I'm Hridya",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀. With Knowledge of many cool frameworks & languages"
   ),
@@ -38,26 +38,20 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     { title: "Data Science & AI",
-      descBullets: [emoji("⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"),
-                    emoji("⚡ Experience of working with Computer Vision and NLP projects"),
-                    emoji("⚡ Complex quantitative modelling for dynamic forecasting and time series analysis")]
+      descBullets: [emoji("⚡ Create Computer Vision and NLP projects"),
+                    emoji("⚡ Predict stuff!")]
       
     },
     { title: "Full Stack Development",
       descBullets: [emoji("⚡ Building resposive website front end using React-Redux"),
-                    emoji("⚡ Developing mobile applications using Flutter, React Native and solo android apps using Android"),
+                    emoji("⚡ Developing mobile applications using Flutter, React Native"),
                     emoji("⚡ Creating application backend in Node, Express.")]
     },
     { title: "Game Development",
-      descBullets: [emoji("⚡ Building great 2D & 3D Games")]
-    },
-    { title: "Cloud Infra-Architecture",
-     descBullets: [emoji("⚡ Experience working on multiple cloud platforms"),
-                   emoji("⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"),
-                   emoji("⚡ Setting up streaming jobs from DB to Server or vice-versa on AWS")]
+      descBullets: [emoji("⚡ Building 2D & 3D Games")]
     },
     { title: "UI/UX Design",
-      descBullets: [emoji("⚡ Designing highly attractive user interface for mobile and web applications"),
+      descBullets: [emoji("⚡ Designing attractive user interface for mobile and web applications"),
                     emoji("⚡ Customizing logo designs and building logos from scratch"),
                     emoji("⚡ Creating the flow of application functionalities to optimize user experience")]
     }
@@ -81,7 +75,7 @@ const skillsSection = {
     },
     {
       skillName: "Superfluid",
-      img: "https://media-exp1.licdn.com/dms/image/C4D0BAQHwwz5cJJsdew/company-logo_200_200/0/1595701202437?e=1654732800&v=beta&t=eENH6UOUetnDV1R3BkJyN04sYz45CPrqbjDSkUxukhY",
+      img: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/xhwcodrzvkpktyzwfjjw",
       color: "#346ce4"
     },
     {
@@ -96,7 +90,7 @@ const skillsSection = {
     },
     {
       skillName: "Arcana",
-      img: "https://media-exp1.licdn.com/dms/image/C4E0BAQGexYINdJal4Q/company-logo_200_200/0/1622567556893?e=1654732800&v=beta&t=580t6BjFtHhNm9eo8JAqw2NzaS_tzJum7jsMYcwWDTs",
+      img: "https://arcana.network/_nuxt/img/arcana-logo-vertical.fd8048a.svg",
       color: "#346ce4"
     },
     {
@@ -263,7 +257,27 @@ const skillsSection = {
       skillName: "Unreal Engine",
       img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2018%2F09%2FUnreal_Tournament_Logo_round_1.png&f=1&nofb=1",
       color: "#000"
-    }
+    },
+    {
+      skillName: "Amplication",
+      img: "https://avatars.githubusercontent.com/u/65107786?s=200&v=4",
+      color: "#8b63fa"
+    },
+    {
+      skillName: "Supabase",
+      img: "https://res.cloudinary.com/practicaldev/image/fetch/s---1zZlXx3--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1968/c0dbe341-1d94-4192-a93b-921519678894.png",
+      color: "#39c486"
+    },
+    {
+      skillName: "MindsDB",
+      img: "https://bookface-images.s3.amazonaws.com/logos/32f1e3710bf121369cdae214a78b189273c4882c.png",
+      color: "#24b474"
+    },
+    {
+      skillName: "Appwrite",
+      img: "https://appwrite.io/images/appwrite.svg",
+      color: "#f42c64"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -271,7 +285,7 @@ const skillsSection = {
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Orchids the International School Vivekananda",
@@ -483,6 +497,24 @@ const achievementSection = {
       title: "PL-900 Certification",
       subtitle: "Certified PL-900 Certification",
       image: "https://images.credly.com/size/340x340/images/2a6251f2-737b-4bf6-9190-d77570cc76fc/CERT-Fundamentals-Power-Platform.png",
+      footerLink: []
+    },
+    {
+      title: "Pega Certified System Architect",
+      subtitle: "PCSA",
+      image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(30)(108).jpg",
+      footerLink: []
+    },
+    {
+      title: "SC-900 Certification",
+      subtitle: "Certified SC-900 Certification",
+      image: "https://images.credly.com/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png",
+      footerLink: []
+    },
+    {
+      title: "PL-100 Certification",
+      subtitle: "Certified PL-100 Certification",
+      image: "https://images.credly.com/size/680x680/images/60030167-ab95-46aa-8391-c069102e5602/power-platform-app-maker-600x600.png",
       footerLink: []
     },
     {
