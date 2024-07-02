@@ -34,11 +34,11 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hridaya423",
-  linkedin: "https://www.linkedin.com/in/hridya-agrawal-067236317/",
+  // linkedin: "https://www.linkedin.com/in/hridya-agrawal-067236317/",
   gmail: "hridayahoney@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/15129164/hridaya-agrawal",
   twitter: "https://x.com/AgrawalHridaya",
-  instagram: "https://www.instagram.com/hridayaagrawal2/"
+  instagram: "https://www.instagram.com/hridayaagrawal2/",
   display: true // Set true to display this section, defaults to false
 };
 
