@@ -356,10 +356,8 @@ const achievementSection = {
       title: "Oracle Gen AI",
       subtitle: "Oracle Gen AI certification",
       image: require("https://futurumgroup.com/wp-content/uploads/2024/01/Oracle-Generative-AI-Advancing-the-Frontier-of-Enterprise-Innovation-1536x864.jpg"),
-      // require("./assets/images/e.png")
       imageAlt: "Certification",
-      footerLink: [
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
