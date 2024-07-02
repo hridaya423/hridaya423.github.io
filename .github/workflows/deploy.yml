@@ -6,12 +6,11 @@ env:
   USE_GITHUB_DATA: "true"
   MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
   schedule:
-    - cron: "20 16 * * *" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
+    - cron: "24 16 * * *" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
