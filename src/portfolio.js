@@ -120,7 +120,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "AI",
+      fontAwesomeClassname: "fab fa-microchip"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -351,7 +355,8 @@ const achievementSection = {
     {
       title: "Oracle Gen AI",
       subtitle: "Oracle Gen AI certification",
-      image: require("./assets/images/e.png"),
+      image: require(""),
+      // require("./assets/images/e.png")
       imageAlt: "Certification",
       footerLink: [
       ]
